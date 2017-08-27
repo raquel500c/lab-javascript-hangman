@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <script src="hangman.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+<div id="main">
+  <button id="new-game">
+    New game
+  </button>
+  <div id="hangman">
+    <div class="right-bar"></div>
+    <div class="top-bar"></div>
+    <div class="left-bar"></div>
+    <div class="base"></div>
+
+    <div class="head"></div>
+    <div class="body"></div>
+    <div class="left-arm"></div>
+    <div class="right-arm"></div>
+    <div class="left-leg"></div>
+    <div class="right-leg"></div>
+
+    <div class="clearfix"></div>
+  </div>
+  <div id="currentWord" >
+    <span>I</span>
+    <span>R</span>
+    <span>O</span>
+    <span>N</span>
+    <span>_</span>
+    <span>A</span>
+    <span>C</span>
+    <span>K</span>
+  </div>
+  <div id="letters">
+  </div>
+  <div id="you-win" class="hide">
+    <p>Good job, you saved our man!</p>
+  </div>
+
+  <div id="game-over" class="hide">
+    <p>Game over!</p>
+  </div>
+
+</div>
+
+  </body>
+</html>
